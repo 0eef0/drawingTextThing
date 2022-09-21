@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main canvas {
+  display: block;
+  border: 2px solid black;
+}
+main canvas:hover {
+  cursor: url("../assets/pen.cur"), auto;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+}
+
+/*# sourceMappingURL=main.css.map */
